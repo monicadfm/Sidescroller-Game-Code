@@ -1,0 +1,49 @@
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+#gameCanvas {
+    background-color: blue;
+    position: absolute;
+    height: 700px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+}
+
+#scoreDiv {
+    color: aliceblue;
+    position: absolute;
+    top: 150px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+#healthDiv {
+    display: flex;
+    position: absolute;
+    top: 790px;
+    left: calc(50% - 485px);
+}
+#healthDiv > img {
+    padding-right: 5px;
+}
+
+#sprites {
+    display: none;
+    z-index: 1;
+} 
+
+#bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.Flipped {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
