@@ -74,6 +74,10 @@ python -m http.server
 
 Then open `http://localhost:3000` (or `:8000`) in your browser.
 
+## Art credits
+
+The character portraits on the selection menu are placeholder images found online for this academic project; I don't own them, and all rights belong to their original artists. The game code is my own work.
+
 ## Author
 
 **Mónica Moura** — [GitHub](https://github.com/monicadfm) · [Portfolio](https://monicadfm.github.io/Portfolio/)
