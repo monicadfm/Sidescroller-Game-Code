@@ -4,6 +4,10 @@
 
 ### ▶ [Play it in your browser](https://monicadfm.github.io/Sidescroller-Game-Code/)
 
+<p align="center">
+  <img src="screenshots/gameplay.png" width="80%" alt="Gameplay: the player facing slimes on a scrolling meadow">
+</p>
+
 Survive as long as you can while waves of slimes chase you across a scrolling world. Shoot them for points, dash out of trouble and don't fall off the left edge of the screen.
 
 ---
@@ -26,7 +30,13 @@ Survive as long as you can while waves of slimes chase you across a scrolling wo
 - **Collision detection** for player–enemy and projectile–enemy hits
 - **Health system** with hearts and temporary invincibility after taking damage
 - **Live score** and a game-over message showing the final score, then back to the menu
-- **Character-selection menu** (the Ranger is currently playable)
+- **Character-selection menu** with three heroes — Kathy the Archer, Drakey the Pirate and Miki the Valkyrie (Kathy is currently playable)
+
+## Character select
+
+<p align="center">
+  <img src="screenshots/menu.png" width="80%" alt="Character-selection menu with three hero cards">
+</p>
 
 ## Tech
 
